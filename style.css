@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.logo{
+    display: flex;
+}
+.logo > img{
+    margin-left: 120px;
+    margin-right: 50px;
+}
+#text{
+    font-weight: bold;
+    font-size:1.1rem ;
+    cursor: pointer;
+    margin-top: 2.3rem;
+}
+.wordgap{
+    width: 6rem;
+}
+.wordgap1{
+    width: 25rem;
+}
+.headerimg{
+    height: 500px;
+    background-color: rgb(116, 247, 116);
+}
+.headerimg img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+.headertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    text-align: center; /* Align text center */
+}   
+.headertext > p {
+    font-weight: bold;
+}   
+.headertext > button{
+    cursor: pointer;
+    background-color: #fff;
+    width: 170px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 0.4em;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.text10{
+    text-align: center;
+}
+.stars{
+    display: flex;
+}
+.stars1{
+    margin-left: 250px;
+}
+.stars2{
+    margin-left: 200px;
+}
+.stars3{
+    margin-left: 250px;
+}
+.starstext{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left ;
+    margin-left: 39.3vh;
+    margin-top:  7px;
+}
+.seotext{
+    margin-top: 12px;
+    font-weight: bold;
+    margin-left: 32.6vh;
+}
+
+.starstext >#branding{
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center ;
+        margin-left: 36.3vh;
+        margin-top:  7px;
+}
+.seotext >#seotext2{
+    margin-top: -54px;
+    font-weight: bold;
+    margin-left: 47.7vh;
+}
+.starstext >#logo{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right ;
+    margin-left: 40.2vh;
+    margin-top:  7px;
+}
+.seotext >#seotext3{
+    margin-top: -53px;
+    font-weight: bold;
+    margin-left: 102vh;
+}
+
+.chesspara {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 450px; 
+    margin-top: 40px;
+}
+#chesspara1{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#aboutus{
+    font-size: 50px;
+    margin-left: 50px;
+}
+#chessimg{
+    margin-left: 30rem
+}
+.text1{
+    display: flex;
+    width: auto;
+    height: 250px;
+   
+}    
+
+.greater{
+    font-size: 200px;
+    margin-left: 90px;
+}
+.human{
+    margin-left: 80px;
+    border-radius: 50%;
+    margin-top: 38px;
+}
+.text{
+    display: flex;
+    margin-top: 50px;
+}
+.john{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.text2{
+    text-align: justify;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+.right-arrow{
+    font-size: 200px;
+    margin-left: 100px;
+}
+
+ .form{
+    height: 230px;
+    width: auto;
+    background-color: #4de059;
+    text-align: center;
+    align-items: center;
+ }
+ .form input{
+    align-items: center;
+    padding-left: 20px;
+    width: 620px;
+    height: 100px;
+    border-radius: 8px;
+    font-size: 30px;
+    color: #ffffff;
+    border: solid white;
+    background-color: #4de059;
+    outline: none;
+ }
+ /* Placeholder text color */
+input::placeholder {
+    color: #ffffff; /* Placeholder text color */
+}
+  
+  .form > .subscribe {
+    width: 15%;
+    height: 13vh;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0.4em;
+    font-size: 1.3rem;
+    color: #4de059;
+    cursor: pointer;
+    margin-top: 2.9rem;
+    margin-left: 1.2rem;
+  }
+  
+  .form > .subscribe:hover {
+    font-size: 1.37rem;
+    color: #000;
+  }
+  #footer{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 18vh;
+}
+#footer1{
+    width: 330px;
+    height: 200px;
+}
+#ft1txt{
+    margin-top: 20px;
+}
+.footer2{
+    width: 330px;
+    height: 200px;
+    margin-left: 20vh;
+}
+.ft2txt{
+    margin-top: 20px;
+}
+.footer3{
+    width: 290px;
+    height: 200px;
+    margin-left: 20vh;
+}
+.ft3txt{
+    margin-top: 20px;
+}
+.img{
+    background: none;
+    cursor: pointer;
+}
+
